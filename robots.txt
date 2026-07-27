@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://claronix.github.io/Claronix-publishing/sitemap.xml
