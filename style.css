@@ -1,0 +1,162 @@
+/* ===========================
+   Claronix Publishing Website
+   style.css
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.7;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* Header */
+
+header{
+    background:linear-gradient(135deg,#0B3C5D,#1E88E5);
+    color:#fff;
+    text-align:center;
+    padding:100px 20px;
+}
+
+header h1{
+    font-size:52px;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:14px 30px;
+    background:#D4AF37;
+    color:#fff;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#b38f2b;
+}
+
+/* Sections */
+
+section{
+    padding:70px 20px;
+}
+
+section:nth-child(even){
+    background:#ffffff;
+}
+
+section:nth-child(odd){
+    background:#f5f7fa;
+}
+
+h2{
+    text-align:center;
+    color:#0B3C5D;
+    font-size:36px;
+    margin-bottom:30px;
+}
+
+h3{
+    color:#1E88E5;
+    margin-bottom:15px;
+}
+
+p{
+    margin-bottom:20px;
+}
+
+/* Cards */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.card{
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+/* Ordered List */
+
+ol{
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+}
+
+ol li{
+    margin-bottom:15px;
+    padding:12px;
+    background:#fff;
+    border-left:5px solid #1E88E5;
+    border-radius:5px;
+}
+
+/* Footer */
+
+footer{
+    background:#0B3C5D;
+    color:#fff;
+    text-align:center;
+    padding:30px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+header{
+    padding:70px 20px;
+}
+
+header h1{
+    font-size:36px;
+}
+
+header p{
+    font-size:18px;
+}
+
+h2{
+    font-size:28px;
+}
+
+.btn{
+    display:block;
+    width:220px;
+    margin:10px auto;
+}
+
+}
